@@ -1,0 +1,8 @@
+---
+- hosts: all
+  remote_user: root
+  tasks:
+    - name: check the date on the server.
+      command: date
+    - name: check the ip on ther server.
+      command: ip addr
